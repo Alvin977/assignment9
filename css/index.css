@@ -1,0 +1,27 @@
+body{
+    background-color: #f7ecde;
+}
+.green{
+    color: rgb(61, 165, 91);
+}
+.yellow{
+    color: rgb(176, 172, 74);
+}
+.head{
+   background-image:linear-gradient(to right,rgb(61, 165, 91),rgb(176, 172, 74)) ;
+   color: white;
+}
+input{
+    padding: 6px 12px;
+}
+.w-10{
+    width: 10%;
+}
+.error{
+    display: none;
+    width: 15%;
+    text-align: center;
+    background-color: black;
+    color: red;
+    font-size: large;
+}

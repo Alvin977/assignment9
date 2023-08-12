@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bookmark</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/index.css">
+</head>
+
+<body>
+
+    <div class="container py-5 ">
+        <h1 class="mb-5 mt-2 text-center">Bookmarker</h1>
+        <div class="d-flex flex-column gap-4">
+            <div class="d-flex justify-content-center"><i class="fa-solid fa-bookmark green"></i>
+                <h2 class="head"> Bookmark your favorite sites</h2><i class="fa-solid fa-bookmark yellow"></i>
+            </div>
+            <div> <label for="#siteName" class="pb-2">Site Name</label>
+                <input type="text" id="siteName" placeholder="Bookmark Name" class="form-control">
+            </div>
+            <div> <label for="#siteURL" class="pb-2">Site URL</label>
+                <input type="text" placeholder="Website URL" id="siteURL" class="form-control">
+            </div>
+            <button type="button" id="addButton" class="btn btn-danger w-10 m-auto">submit</button>
+            <p  class=" py-2 m-auto error error1">Invalid Name or URL</p>
+            <p  class=" py-2 m-auto error error2">This site is already bookmarked</p>
+        
+        </div>
+        <table class="table table-bordered table-striped my-4 ">
+        <thead>
+            <th>Index</th>
+            <th>Website Name</th>
+            <th>Visit</th>
+            <th>Delete</th>
+          </thead>
+          <tbody  id="tableBody">
+         
+          </tbody>
+        </table>
+    </div>
+
+
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
