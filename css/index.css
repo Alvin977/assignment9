@@ -1,23 +1,30 @@
-body{
+body {
     background-color: #f7ecde;
 }
-.green{
+
+.green {
     color: rgb(61, 165, 91);
 }
-.yellow{
+
+.yellow {
     color: rgb(176, 172, 74);
 }
-.head{
-   background-image:linear-gradient(to right,rgb(61, 165, 91),rgb(176, 172, 74)) ;
-   color: white;
+
+.head {
+    background: linear-gradient(to right, rgb(61, 165, 91), rgb(176, 172, 74));
+    color: transparent;
+    -webkit-background-clip: text;
 }
-input{
+
+input {
     padding: 6px 12px;
 }
-.w-10{
+
+.w-10 {
     width: 10%;
 }
-.error{
+
+.error {
     display: none;
     width: 15%;
     text-align: center;
